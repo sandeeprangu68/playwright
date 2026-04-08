@@ -1,0 +1,375 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - link "Pixlr Suite" [ref=e4] [cursor=pointer]:
+        - /url: /suite/
+        - img "Pixlr Editor" [ref=e5]
+        - text: Pixlr Editor
+      - generic "headerLoginEditor" [ref=e6] [cursor=pointer]:
+        - img [ref=e7]
+        - text: Sign up / Log in
+      - generic [ref=e9] [cursor=pointer]:
+        - img [ref=e10]
+        - text: Try premium
+      - img [ref=e13] [cursor=pointer]
+      - img [ref=e16] [cursor=pointer]
+      - img [ref=e20] [cursor=pointer]
+    - generic [ref=e23]:
+      - generic [ref=e24]:
+        - img [ref=e26] [cursor=pointer]
+        - img [ref=e27] [cursor=pointer]
+        - generic [ref=e31] [cursor=pointer]:
+          - img [ref=e32]
+          - text: Open image
+        - generic [ref=e33] [cursor=pointer]: Create new
+        - generic [ref=e34]:
+          - link "AI Image Generator" [ref=e35] [cursor=pointer]:
+            - /url: /image-generator/
+          - link "Create collage" [ref=e36] [cursor=pointer]:
+            - /url: /photo-collage/
+      - generic [ref=e37]:
+        - heading "Worlds First and Most Popular Advanced Online Photo Editor" [level=1] [ref=e38]
+        - link "START 7 DAY TRIAL" [ref=e39] [cursor=pointer]:
+          - /url: /pricing/#interval-toggle
+          - img [ref=e40]
+          - text: START 7 DAY TRIAL
+        - paragraph [ref=e41]: Welcome to the free advanced photo editor by Pixlr. Start editing by clicking on the open image button, drag n' drop a file or paste from the clipboard (ctrl+v).
+  - generic [ref=e42]:
+    - generic [ref=e43]:
+      - list [ref=e44]:
+        - listitem [ref=e45] [cursor=pointer]:
+          - generic [ref=e46]: File
+        - listitem [ref=e47] [cursor=pointer]:
+          - generic [ref=e48]: Edit
+        - listitem [ref=e49] [cursor=pointer]:
+          - generic [ref=e50]: Image
+        - listitem [ref=e51] [cursor=pointer]:
+          - generic [ref=e52]: Layer
+        - listitem [ref=e53] [cursor=pointer]:
+          - generic [ref=e54]: Select
+        - listitem [ref=e55] [cursor=pointer]:
+          - generic [ref=e56]: Adjustment
+        - listitem [ref=e57] [cursor=pointer]:
+          - generic [ref=e58]: Filter
+        - listitem [ref=e59] [cursor=pointer]:
+          - generic [ref=e60]: View
+        - listitem [ref=e61] [cursor=pointer]:
+          - generic [ref=e62]: Help
+      - generic [ref=e63]:
+        - img [ref=e65] [cursor=pointer]
+        - generic [ref=e67]:
+          - img [ref=e69]
+          - generic [ref=e70]:
+            - generic [ref=e71]:
+              - generic [ref=e72]: "Aspect:"
+              - generic [ref=e73]:
+                - radio "Fixed" [checked] [ref=e74]
+                - generic [ref=e75] [cursor=pointer]: Fixed
+                - radio "Free" [ref=e76]
+                - generic [ref=e77] [cursor=pointer]: Free
+            - generic [ref=e78]: "Pos:"
+            - generic [ref=e79]:
+              - generic [ref=e80]: X
+              - spinbutton [ref=e81]
+            - generic [ref=e82]:
+              - generic [ref=e83]: "Y"
+              - spinbutton [ref=e84]
+            - generic [ref=e85]: "Size:"
+            - generic [ref=e86]:
+              - generic [ref=e87]: W
+              - spinbutton [ref=e88]
+            - img [ref=e90] [cursor=pointer]
+            - generic [ref=e91]:
+              - generic [ref=e92]: H
+              - spinbutton [ref=e93]
+            - list [ref=e94]:
+              - listitem [ref=e95] [cursor=pointer]:
+                - img [ref=e96]
+              - listitem [ref=e97] [cursor=pointer]:
+                - img [ref=e98]
+              - listitem [ref=e99] [cursor=pointer]:
+                - img [ref=e100]
+              - listitem [ref=e101] [cursor=pointer]:
+                - img [ref=e102]
+            - list [ref=e103]:
+              - listitem [ref=e104] [cursor=pointer]:
+                - img [ref=e105]
+              - listitem [ref=e106] [cursor=pointer]:
+                - img [ref=e107]
+            - img [ref=e110] [cursor=pointer]
+    - generic [ref=e111]:
+      - list [ref=e113]:
+        - listitem [ref=e114] [cursor=pointer]:
+          - img [ref=e115]
+        - listitem [ref=e116] [cursor=pointer]:
+          - img [ref=e117]
+        - listitem [ref=e118] [cursor=pointer]:
+          - img [ref=e119]
+        - listitem [ref=e120] [cursor=pointer]:
+          - img [ref=e121]
+        - listitem [ref=e122] [cursor=pointer]:
+          - img [ref=e123]
+        - listitem [ref=e124] [cursor=pointer]:
+          - img [ref=e125]
+        - listitem [ref=e126] [cursor=pointer]:
+          - img [ref=e127]
+        - listitem [ref=e128] [cursor=pointer]:
+          - img [ref=e129]
+        - listitem [ref=e130] [cursor=pointer]:
+          - img [ref=e131]
+        - listitem [ref=e132] [cursor=pointer]:
+          - img [ref=e133]
+        - listitem [ref=e134] [cursor=pointer]:
+          - img [ref=e135]
+        - listitem [ref=e136] [cursor=pointer]:
+          - img [ref=e137]
+        - listitem [ref=e138] [cursor=pointer]:
+          - img [ref=e139]
+        - listitem [ref=e140] [cursor=pointer]:
+          - img [ref=e141]
+        - listitem [ref=e142] [cursor=pointer]:
+          - img [ref=e143]
+        - listitem [ref=e144] [cursor=pointer]:
+          - img [ref=e145]
+        - listitem [ref=e146] [cursor=pointer]:
+          - img [ref=e147]
+        - listitem [ref=e148] [cursor=pointer]:
+          - img [ref=e149]
+        - listitem [ref=e150] [cursor=pointer]:
+          - img [ref=e151]
+        - listitem [ref=e152] [cursor=pointer]:
+          - img [ref=e153]
+        - listitem [ref=e154] [cursor=pointer]:
+          - img [ref=e155]
+        - listitem [ref=e156] [cursor=pointer]:
+          - img [ref=e157]
+        - listitem [ref=e158] [cursor=pointer]:
+          - img [ref=e159]
+        - listitem [ref=e160] [cursor=pointer]:
+          - img [ref=e161]
+        - listitem [ref=e162] [cursor=pointer]:
+          - img [ref=e163]
+        - listitem [ref=e164] [cursor=pointer]:
+          - img [ref=e165]
+      - img [ref=e170] [cursor=pointer]
+      - generic:
+        - img "Arrange tool info"
+        - paragraph:
+          - generic: Arrange
+          - text: Move, transform and change layer settings.
+          - generic: Keybord shortcut (V)
+      - generic:
+        - img "Marquee select tool info"
+        - paragraph:
+          - generic: Marquee Select
+          - text: Create selections with the square and circle selection tool.
+          - generic: Keybord shortcut (M)
+      - generic:
+        - img "Lasso select tool info"
+        - paragraph:
+          - generic: Lasso Select
+          - text: Use the freehand, polygon, bezier or magnetic lasso to create a selection.
+          - generic: Keybord shortcut (L)
+      - generic:
+        - img "Wand select tool info"
+        - paragraph:
+          - generic: Wand Select
+          - text: Use the magic wand to select areas with similar colors.
+          - generic: Keybord shortcut (W)
+      - generic:
+        - img "Crop tool info"
+        - paragraph:
+          - generic: Crop
+          - text: Trim, cut and straighten the canvas by free or fixed aspect.
+          - generic: Keybord shortcut (C)
+      - generic:
+        - img "Cutout tool info"
+        - paragraph:
+          - generic: Cutout / Mask
+          - text: Mask areas and/or remove backgrounds, cut out objects or crop/trim individual layers.
+          - generic: Keybord shortcut (K)
+      - generic:
+        - img "Frame tool info"
+        - paragraph:
+          - generic: Frame / Image Holder
+          - text: Define an area to place an image and cut it to a variety of shapes, the placed image is auto scaled and cropped to fit. Frames are an essential part of creating re-usable Templates.
+          - generic: Keybord shortcut (N)
+      - generic:
+        - img "Liquify tool info"
+        - paragraph:
+          - generic: Liquify
+          - text: Grow, shrink and push parts of the image. Use liquify to make subtle adjustments to portraits and other images.
+          - generic: Keybord shortcut (Q)
+      - generic:
+        - img "Heal tool info"
+        - paragraph:
+          - generic: Heal
+          - text: Remove spots, unwanted objects, blemishes and clean up images.
+          - generic: Keybord shortcut (H)
+      - generic:
+        - img "Clone tool info"
+        - paragraph:
+          - generic: Clone
+          - text: Draw and copy from other areas in an image.
+          - generic: Keybord shortcut (S)
+      - generic:
+        - img "Detail tool info"
+        - paragraph:
+          - generic: Blur / Sharpen / Smudge
+          - text: Draw over areas in the image to sharpen, blur or smudge details.
+          - generic: Keybord shortcut (D)
+      - generic:
+        - img "Toning tool info"
+        - paragraph:
+          - generic: Dodge / Burn
+          - text: Lighten or darken areas of the image to bring out dark areas or dim light ones.
+          - generic: Keybord shortcut (O)
+      - generic:
+        - img "Temper tool info"
+        - paragraph:
+          - generic: Sponge / Color
+          - text: Brush vibrance, saturation or temperature in local areas to pop or reduce colors.
+          - generic: Keybord shortcut (R)
+      - generic:
+        - img "Pen tool info"
+        - paragraph:
+          - generic: Pen
+          - text: Use different type of creative pens like web, crayons, ink and tail to doodle and draw.
+          - generic: Keybord shortcut (P)
+      - generic:
+        - img "Draw tool info"
+        - paragraph:
+          - generic: Draw
+          - text: Draw and doodle with different brushes and colors.
+          - generic: Keybord shortcut (B)
+      - generic:
+        - img "Eraser tool info"
+        - paragraph:
+          - generic: Eraser
+          - text: Erase parts of an image with a brush, use cutout tool for finer result.
+          - generic: Keybord shortcut (E)
+      - generic:
+        - img "Fill tool info"
+        - paragraph:
+          - generic: Fill
+          - text: Fill whole areas with a single color.
+          - generic: Keybord shortcut (F)
+      - generic:
+        - img "Gradient tool info"
+        - paragraph:
+          - generic: Gradient
+          - text: Create blends with different colors and transparencies.
+          - generic: Keybord shortcut (G)
+      - generic:
+        - img "Focus tool info"
+        - paragraph:
+          - generic: Focus / Bokeh
+          - text: Create depth in your photos with background blur, bokeh blur and bokeh lights.
+          - generic: Keybord shortcut (J)
+      - generic:
+        - img "Disperse tool info"
+        - paragraph:
+          - generic: Disperse
+          - text: Draw over an area in you image and watch it explode and disperse into thousands pieces.
+          - generic: Keybord shortcut (Y)
+      - generic:
+        - img "Color replace tool info"
+        - paragraph:
+          - generic: Color replace
+          - text: Change one color in a area to another by drawing over.
+          - generic: Keybord shortcut (A)
+      - generic:
+        - img "Shape tool info"
+        - paragraph:
+          - generic: Shape
+          - text: Draw different pixel or vector shapes like squares, circles, lines and more.
+          - generic: Keybord shortcut (U)
+      - generic:
+        - img "Text tool info"
+        - paragraph:
+          - generic: Text
+          - text: Add new text layer or use one of our text templates.
+          - generic: Keybord shortcut (T)
+      - generic:
+        - img "Picker tool info"
+        - paragraph:
+          - generic: Picker
+          - text: Pick colors from the image to use with other tools.
+          - generic: Keybord shortcut (I)
+      - generic:
+        - img "Zoom tool info"
+        - paragraph:
+          - generic: Zoom
+          - text: Zoom in or out of the photo to focus on different parts.
+          - generic: Keybord shortcut (Z)
+      - generic:
+        - img "Hand tool info"
+        - paragraph:
+          - generic: Hand / Pan
+          - text: Move the viewable area when the image is zoomed in. Hold spacebar in any tool.
+          - generic: Keybord shortcut (SPACEBAR)
+    - generic [ref=e171]:
+      - generic [ref=e172]:
+        - generic [ref=e173]: Navigate
+        - generic [ref=e182]:
+          - generic [ref=e183]: "X:"
+          - generic [ref=e184]: "Y:"
+          - generic [ref=e185]: "W:"
+          - generic [ref=e186]: "H:"
+        - generic [ref=e187]:
+          - generic [ref=e188] [cursor=pointer]: "-"
+          - slider [ref=e189] [cursor=pointer]: "50"
+          - generic [ref=e190] [cursor=pointer]: +
+          - textbox [ref=e191]: 100%
+      - generic [ref=e192]:
+        - generic [ref=e193]: Layers
+        - img [ref=e198] [cursor=pointer]
+        - list [ref=e201]:
+          - listitem [ref=e202] [cursor=pointer]:
+            - img [ref=e203]
+          - listitem [ref=e204] [cursor=pointer]:
+            - img [ref=e205]
+          - listitem [ref=e206] [cursor=pointer]:
+            - img [ref=e207]
+      - generic [ref=e208]:
+        - generic [ref=e209]: History
+        - list [ref=e215]
+    - generic [ref=e216]:
+      - img [ref=e218] [cursor=pointer]
+      - img [ref=e220] [cursor=pointer]
+      - img [ref=e222] [cursor=pointer]
+      - img [ref=e225] [cursor=pointer]
+  - generic [ref=e234]:
+    - img [ref=e236] [cursor=pointer]
+    - generic [ref=e238]:
+      - generic [ref=e239]:
+        - generic [ref=e240]: What's new
+        - generic [ref=e241]:
+          - link "Creative Play Feels Simple Now" [ref=e242] [cursor=pointer]:
+            - /url: javascript:;
+            - generic [ref=e243]: Creative Play Feels Simple Now
+          - link "Festive Easter Cards Crafted In Minutes" [ref=e244] [cursor=pointer]:
+            - /url: javascript:;
+            - generic [ref=e245]: Festive Easter Cards Crafted In Minutes
+          - link "Invite Creativity With Easy Text Editing" [ref=e246] [cursor=pointer]:
+            - /url: javascript:;
+            - generic [ref=e247]: Invite Creativity With Easy Text Editing
+          - link "Add Personality To Words Using Pixlr" [ref=e248] [cursor=pointer]:
+            - /url: javascript:;
+            - generic [ref=e249]: Add Personality To Words Using Pixlr
+          - link "Fresh Frames For Every Platform" [ref=e250] [cursor=pointer]:
+            - /url: javascript:;
+            - generic [ref=e251]: Fresh Frames For Every Platform
+      - generic [ref=e253]:
+        - img [ref=e254]
+        - generic [ref=e255]:
+          - generic [ref=e256]:
+            - generic [ref=e258]: 4/6/2026
+            - generic [ref=e259]: Creative Play Feels Simple Now
+          - generic [ref=e260]: Pixlr Express makes creativity simple and enjoyable. This tutorial shows how easy it is to learn features quickly, giving you confidence to experiment right away. With clear guidance and inspiring examples, design feels approachable and fun. Watch the tutorial now and start enjoying playful, exciting design moments with Pixlr Express today!
+          - link "WATCH NOW" [ref=e261] [cursor=pointer]:
+            - /url: https://www.youtube.com/watch?v=RVkQDaHiCbo&t=27s
+```
