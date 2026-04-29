@@ -7,7 +7,7 @@ test('Dashboard Test @smoke', async ({ loggedInPage }) => {
 
     await loggedInPage.waitForTimeout(5000);
     console.log(await loggedInPage.title());
-    await expect(loggedInPage).toHaveTitle("My Account1");
+    await expect(loggedInPage).toHaveTitle("My Account");
     await loggedInPage.waitForTimeout(5000);
 
 
