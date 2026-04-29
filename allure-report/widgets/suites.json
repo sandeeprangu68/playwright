@@ -1,1 +1,1 @@
-{"total":0,"items":[]}
+{"total":2,"items":[{"uid":"536c0e4b20561d33dac9db0df26429b3","name":"homepage.spec.js","statistic":{"failed":1,"broken":0,"skipped":0,"passed":0,"unknown":0,"total":1}},{"uid":"4f65557fa95d7b8a47783220648c1d0c","name":"Collections\\collection.spec.js","statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1}}]}

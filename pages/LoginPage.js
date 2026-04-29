@@ -21,11 +21,15 @@
 
 
 class LoginPage {
+  page;
+  email; password; loginBtn;
   constructor(page) {
     this.page = page;
+    const obj = this.page;
     this.email = page.locator('#input-email');
     this.password = page.locator('#input-password');
     this.loginBtn = page.locator('input[value="Login"]');
+
   }
 
   async login(email, password) {

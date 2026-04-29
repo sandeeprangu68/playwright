@@ -2,9 +2,10 @@
 const { chromium } = require('playwright');
 
 (async () => {
-    const browser = await chromium.launch({ headless: false });
-    const context = await browser.newContext();
-    const page = await context.newPage();
+    const browserq = await chromium.launch({ headless: false });
+    const con = await browserq.newContext();
+
+    const page = await con.newPage();
 
     await page.goto('https://tutorialsninja.com/demo');
 
@@ -12,5 +13,5 @@ const { chromium } = require('playwright');
 
     debugger;
 
-    // ❌ do NOT close
+   // ❌ do NOT close
 })();

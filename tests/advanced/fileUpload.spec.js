@@ -11,4 +11,5 @@ test('File Upload Example', async ({ page }) => {
     await page.waitForTimeout(5000);
 
     await expect(page.getByText("File Uploaded!")).toHaveText("File Uploaded!");
+    await page.screenshot('')
 });
