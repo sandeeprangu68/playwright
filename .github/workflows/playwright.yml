@@ -24,7 +24,7 @@ jobs:
         run: npx playwright install --with-deps
 
       - name: Run tests
-        run: npx playwright test
+        run: npm run smoke:dev
 
       # Install Allure
       - name: Install Allure CLI
