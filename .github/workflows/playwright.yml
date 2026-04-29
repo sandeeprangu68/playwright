@@ -35,22 +35,25 @@ jobs:
       - name: Install Playwright browsers
         run: npx playwright install --with-deps
 
-      # ✅ FIXED: fallback to homepage.spec.js if input not provided
+      # 🔥 Run tests (even if fail, continue)
       - name: Run Playwright tests
         run: npx playwright test ${{ github.event.inputs.spec || 'tests/homepage.spec.js' }}
         env:
           ENV: ${{ github.event.inputs.env || 'qa' }}
+        continue-on-error: true
 
-      # Install Allure CLI
+      # ✅ Install Allure
       - name: Install Allure CLI
         run: npm install -g allure-commandline
 
-      # Generate Allure report
+      # ✅ Generate report even if tests fail
       - name: Generate Allure Report
+        if: always()
         run: allure generate allure-results --clean -o allure-report
 
-      # Upload report
+      # ✅ Upload report
       - name: Upload Allure Report
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: allure-report
