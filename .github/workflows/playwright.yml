@@ -16,7 +16,7 @@ on:
         required: false
         default: "qa"
 
-# 🔥 ADD THIS
+# 🔥 REQUIRED for gh-pages push
 permissions:
   contents: write
 
@@ -25,36 +25,73 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+      # ✅ Checkout repo
       - name: Checkout code
         uses: actions/checkout@v4
 
+      # ✅ Setup Node
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 18
 
+      # ✅ Install deps
       - name: Install dependencies
         run: npm ci
 
+      # ✅ Install browsers
       - name: Install Playwright browsers
         run: npx playwright install --with-deps
 
+      # 🔥 Clean old Allure data
+      - name: Clean old Allure results
+        run: rm -rf allure-results allure-report
+
+      # 🔥 Run tests (don’t fail pipeline)
       - name: Run Playwright tests
         run: npx playwright test ${{ github.event.inputs.spec || 'tests/homepage.spec.js' }}
         env:
           ENV: ${{ github.event.inputs.env || 'qa' }}
         continue-on-error: true
 
+      # ✅ Install Allure CLI
       - name: Install Allure CLI
         run: npm install -g allure-commandline
 
+      # 🔥 Pull previous gh-pages for history (optional but recommended)
+      - name: Checkout gh-pages branch
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+          path: gh-pages
+        continue-on-error: true
+
+      # 🔥 Copy history for trend graph
+      - name: Copy Allure history
+        run: |
+          if [ -d "gh-pages/history" ]; then
+            mkdir -p allure-results/history
+            cp -r gh-pages/history/* allure-results/history/
+          fi
+
+      # ✅ Add environment info
+      - name: Add environment info
+        run: |
+          mkdir -p allure-results
+          echo "ENV=${{ github.event.inputs.env || 'qa' }}" >> allure-results/environment.properties
+          echo "BROWSER=chromium" >> allure-results/environment.properties
+          echo "OS=ubuntu-latest" >> allure-results/environment.properties
+
+      # ✅ Generate report
       - name: Generate Allure Report
         if: always()
         run: allure generate allure-results --clean -o allure-report
 
+      # 🚀 Deploy to GitHub Pages (LATEST FIX)
       - name: Deploy Allure report to GitHub Pages
         if: always()
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./allure-report
+          force_orphan: true   # 🔥 ensures fresh latest report
