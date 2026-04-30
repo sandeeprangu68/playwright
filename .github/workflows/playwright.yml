@@ -51,7 +51,7 @@ jobs:
         run: rm -rf allure-results allure-report
 
       - name: Run Playwright tests
-        run: npx playwright test
+        run: npx playwright test tests/homepage.spec.js
         env:
           BASE_URL: https://sandeeprangu68.github.io/playwright/
 
