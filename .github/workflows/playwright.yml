@@ -10,7 +10,7 @@ permissions:
 jobs:
 
   # -------------------------------
-  # 🚀 JOB 1: Deploy Website FIRST
+  # 🚀 JOB 1: DeployWebsite FIRST
   # -------------------------------
   deploy-site:
     runs-on: ubuntu-latest
