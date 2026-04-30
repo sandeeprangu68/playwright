@@ -1,0 +1,166 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - paragraph [ref=e3]:
+    - link "PMP Practice" [ref=e4] [cursor=pointer]:
+      - /url: https://pmp.expandtesting.com/
+    - text: "| Free PMP Certification Mock Exam Test +900 Questions & Quizzes"
+    - link "Software Testing courses" [ref=e5] [cursor=pointer]:
+      - img [ref=e7]
+      - text: Software Testing courses
+  - banner [ref=e10]:
+    - navigation "Main navigation" [ref=e11]:
+      - link "SUT" [ref=e12] [cursor=pointer]:
+        - /url: /
+        - 'img "Best Website for Practice Automation Testing: Free UI and REST API Examples and Apps. Using Cypress, Playwright, Selenium, WebdriverIO and Postman." [ref=e13]'
+        - text: Practice
+      - generic [ref=e14]:
+        - list [ref=e15]:
+          - listitem [ref=e16]:
+            - button "Demos" [ref=e17] [cursor=pointer]
+          - listitem [ref=e18]:
+            - link "Tools" [ref=e19] [cursor=pointer]:
+              - /url: /#tools
+          - listitem [ref=e20]:
+            - link "Tips" [ref=e21] [cursor=pointer]:
+              - /url: /tips
+          - listitem [ref=e22]:
+            - link "Test Cases" [ref=e23] [cursor=pointer]:
+              - /url: /test-cases
+          - listitem [ref=e24]:
+            - link "API Testing" [ref=e25] [cursor=pointer]:
+              - /url: /notes/api/api-docs/
+          - listitem [ref=e26]:
+            - link "About" [ref=e27] [cursor=pointer]:
+              - /url: /about
+        - list
+        - link "Free ISTQB Mock Exams" [ref=e28] [cursor=pointer]:
+          - /url: https://istqb.expandtesting.com/
+  - main [ref=e29]:
+    - insertion [ref=e33]:
+      - iframe [ref=e35]:
+        - generic [active] [ref=f3e1]:
+          - generic [ref=f3e6]:
+            - link [ref=f3e7] [cursor=pointer]:
+              - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CnF4TJXbjabSgEoHos8IP9pzT-QPq49zKhgHbifb61xWDzPqTlw4QASCVlJmjAWDl6uMDoAGnoLT6A8gBCakCqcdDuB8cRz6oAwHIA8sEqgSRAk_QOs8G9PZCxv7WdYRPJmQ1FkvlpH3llFrdSIE2SzIBdo6Eyp9gZErD_A2kgkFBe-nkLXt8XM5d6OYVfa_yrK5uZmjwSjO-MJdoG41Pdwg7gg5yK-nE8W6tK2ngJSaG9zR5J3fIzsc7R805gTjguMsROnpDBOyDX-GPQjis32oQDV_RJdz0IFGekN2dU0gHNWP21ZidHRiUEYcDNW2fibDDF82dm1bw-M-Zm6rK34u5UWP6Ftsy1OP1fHCB6-BSVOseeBfo2aD_jlwdipxOZF_CENt-LRNJHFkaK7qgjaUkw7vNWSsZC8NFMK37wxNVJ7Lq7r2r3chmH4QiyUOL6XmP04R3FgB_tXSCElQlajBk4sAElrSW7dMEiAWCpI64L6AGLoAHwd_LBagHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHmuGxAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIILwiAYRABGJ8DMgiKgoCAgICACDoNgECAwICAgICogAKoA0i9_cE6WNOBicyw95MDsQkr5W2FtEde5IAKAZgLAcgLAYAMAaIMA5ABAaoNAklOyA0B6g0TCKbPisyw95MDFQH0TAIdds40P_ANAogOCbAO3Or9mRjYEwzQFQGYFgHKFgIKAPgWAYAXAbIXEBgBKgo0OTcwMjEyMjIxUAa6FwI4AaoYFwkAAAAAfA9BQRIKNDk3MDIxMjIyMRgBshgJEgL2ThguIgEA0BgB6BgBwhkCCAE&ae=1&gclid=EAIaIQobChMI9MaKzLD3kwMVAfRMAh12zjQ_EAEYASAAEgLEYPD_BwE&num=1&cid=CAQS5AEABaugfcF3l6tvBkwEn_rQa0NoIXImV3FhHmcgez2c60uNBdNlCDZEgMWy9hHqx9s_RO8jY3Va0Jd5BxJ8_UhsdI872kc6FmgHpqGXyNRDjcaEsIOgEsbLjSeRRt9GEjLLqOEXw60Zf8DfQ_NElv7OpP5li3QhmxdVegRHkWXLl_MOTMUwqrQq23rwncuYe5_TFLfGqE9VoNBO4t-XGuEf7t5RHnaQ-2H6JDG-VFUTyocOSMPzor0M-yG-kpcnenVUNS85fi5RWoepMa63Ir-3yFWSAw5FLEMS4J3rsxk3SoLqR1cYAQ&sig=AOD64_15HssiDCc-H4SWUzhu-FfAxrcqLg&client=ca-pub-1056034821646296&rf=1&nb=9&adurl=https://health.policybazaar.com/%3Fnew%3D1%26pb_source%3Dgoogle%26pb_medium%3Dcpc%26pb_campaign%3DHealth_Performance_Max_Search_Themes%26gad_source%3D5%26gad_campaignid%3D12734140930%26gclid%3DEAIaIQobChMI9MaKzLD3kwMVAfRMAh12zjQ_EAEYASAAEgLEYPD_BwE
+              - img [ref=f3e8]
+            - generic [ref=f3e10]:
+              - generic [ref=f3e13]:
+                - link "Health Insurance for Seniors" [ref=f3e16] [cursor=pointer]:
+                  - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CnF4TJXbjabSgEoHos8IP9pzT-QPq49zKhgHbifb61xWDzPqTlw4QASCVlJmjAWDl6uMDoAGnoLT6A8gBCakCqcdDuB8cRz6oAwHIA8sEqgSRAk_QOs8G9PZCxv7WdYRPJmQ1FkvlpH3llFrdSIE2SzIBdo6Eyp9gZErD_A2kgkFBe-nkLXt8XM5d6OYVfa_yrK5uZmjwSjO-MJdoG41Pdwg7gg5yK-nE8W6tK2ngJSaG9zR5J3fIzsc7R805gTjguMsROnpDBOyDX-GPQjis32oQDV_RJdz0IFGekN2dU0gHNWP21ZidHRiUEYcDNW2fibDDF82dm1bw-M-Zm6rK34u5UWP6Ftsy1OP1fHCB6-BSVOseeBfo2aD_jlwdipxOZF_CENt-LRNJHFkaK7qgjaUkw7vNWSsZC8NFMK37wxNVJ7Lq7r2r3chmH4QiyUOL6XmP04R3FgB_tXSCElQlajBk4sAElrSW7dMEiAWCpI64L6AGLoAHwd_LBagHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHmuGxAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIILwiAYRABGJ8DMgiKgoCAgICACDoNgECAwICAgICogAKoA0i9_cE6WNOBicyw95MDsQkr5W2FtEde5IAKAZgLAcgLAYAMAaIMA5ABAaoNAklOyA0B6g0TCKbPisyw95MDFQH0TAIdds40P_ANAogOCbAO3Or9mRjYEwzQFQGYFgHKFgIKAPgWAYAXAbIXEBgBKgo0OTcwMjEyMjIxUAa6FwI4AaoYFwkAAAAAfA9BQRIKNDk3MDIxMjIyMRgBshgJEgL2ThguIgEA0BgB6BgBwhkCCAE&ae=1&gclid=EAIaIQobChMI9MaKzLD3kwMVAfRMAh12zjQ_EAEYASAAEgLEYPD_BwE&num=1&cid=CAQS5AEABaugfcF3l6tvBkwEn_rQa0NoIXImV3FhHmcgez2c60uNBdNlCDZEgMWy9hHqx9s_RO8jY3Va0Jd5BxJ8_UhsdI872kc6FmgHpqGXyNRDjcaEsIOgEsbLjSeRRt9GEjLLqOEXw60Zf8DfQ_NElv7OpP5li3QhmxdVegRHkWXLl_MOTMUwqrQq23rwncuYe5_TFLfGqE9VoNBO4t-XGuEf7t5RHnaQ-2H6JDG-VFUTyocOSMPzor0M-yG-kpcnenVUNS85fi5RWoepMa63Ir-3yFWSAw5FLEMS4J3rsxk3SoLqR1cYAQ&sig=AOD64_15HssiDCc-H4SWUzhu-FfAxrcqLg&client=ca-pub-1056034821646296&rf=1&nb=0&adurl=https://health.policybazaar.com/%3Fnew%3D1%26pb_source%3Dgoogle%26pb_medium%3Dcpc%26pb_campaign%3DHealth_Performance_Max_Search_Themes%26gad_source%3D5%26gad_campaignid%3D12734140930%26gclid%3DEAIaIQobChMI9MaKzLD3kwMVAfRMAh12zjQ_EAEYASAAEgLEYPD_BwE
+                - link "Health Insurance Takes Care Of Your Medical Expenses!" [ref=f3e19] [cursor=pointer]:
+                  - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CnF4TJXbjabSgEoHos8IP9pzT-QPq49zKhgHbifb61xWDzPqTlw4QASCVlJmjAWDl6uMDoAGnoLT6A8gBCakCqcdDuB8cRz6oAwHIA8sEqgSRAk_QOs8G9PZCxv7WdYRPJmQ1FkvlpH3llFrdSIE2SzIBdo6Eyp9gZErD_A2kgkFBe-nkLXt8XM5d6OYVfa_yrK5uZmjwSjO-MJdoG41Pdwg7gg5yK-nE8W6tK2ngJSaG9zR5J3fIzsc7R805gTjguMsROnpDBOyDX-GPQjis32oQDV_RJdz0IFGekN2dU0gHNWP21ZidHRiUEYcDNW2fibDDF82dm1bw-M-Zm6rK34u5UWP6Ftsy1OP1fHCB6-BSVOseeBfo2aD_jlwdipxOZF_CENt-LRNJHFkaK7qgjaUkw7vNWSsZC8NFMK37wxNVJ7Lq7r2r3chmH4QiyUOL6XmP04R3FgB_tXSCElQlajBk4sAElrSW7dMEiAWCpI64L6AGLoAHwd_LBagHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHmuGxAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIILwiAYRABGJ8DMgiKgoCAgICACDoNgECAwICAgICogAKoA0i9_cE6WNOBicyw95MDsQkr5W2FtEde5IAKAZgLAcgLAYAMAaIMA5ABAaoNAklOyA0B6g0TCKbPisyw95MDFQH0TAIdds40P_ANAogOCbAO3Or9mRjYEwzQFQGYFgHKFgIKAPgWAYAXAbIXEBgBKgo0OTcwMjEyMjIxUAa6FwI4AaoYFwkAAAAAfA9BQRIKNDk3MDIxMjIyMRgBshgJEgL2ThguIgEA0BgB6BgBwhkCCAE&ae=1&gclid=EAIaIQobChMI9MaKzLD3kwMVAfRMAh12zjQ_EAEYASAAEgLEYPD_BwE&num=1&cid=CAQS5AEABaugfcF3l6tvBkwEn_rQa0NoIXImV3FhHmcgez2c60uNBdNlCDZEgMWy9hHqx9s_RO8jY3Va0Jd5BxJ8_UhsdI872kc6FmgHpqGXyNRDjcaEsIOgEsbLjSeRRt9GEjLLqOEXw60Zf8DfQ_NElv7OpP5li3QhmxdVegRHkWXLl_MOTMUwqrQq23rwncuYe5_TFLfGqE9VoNBO4t-XGuEf7t5RHnaQ-2H6JDG-VFUTyocOSMPzor0M-yG-kpcnenVUNS85fi5RWoepMa63Ir-3yFWSAw5FLEMS4J3rsxk3SoLqR1cYAQ&sig=AOD64_15HssiDCc-H4SWUzhu-FfAxrcqLg&client=ca-pub-1056034821646296&rf=1&nb=7&adurl=https://health.policybazaar.com/%3Fnew%3D1%26pb_source%3Dgoogle%26pb_medium%3Dcpc%26pb_campaign%3DHealth_Performance_Max_Search_Themes%26gad_source%3D5%26gad_campaignid%3D12734140930%26gclid%3DEAIaIQobChMI9MaKzLD3kwMVAfRMAh12zjQ_EAEYASAAEgLEYPD_BwE
+              - generic [ref=f3e22]:
+                - link:
+                  - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CnF4TJXbjabSgEoHos8IP9pzT-QPq49zKhgHbifb61xWDzPqTlw4QASCVlJmjAWDl6uMDoAGnoLT6A8gBCakCqcdDuB8cRz6oAwHIA8sEqgSRAk_QOs8G9PZCxv7WdYRPJmQ1FkvlpH3llFrdSIE2SzIBdo6Eyp9gZErD_A2kgkFBe-nkLXt8XM5d6OYVfa_yrK5uZmjwSjO-MJdoG41Pdwg7gg5yK-nE8W6tK2ngJSaG9zR5J3fIzsc7R805gTjguMsROnpDBOyDX-GPQjis32oQDV_RJdz0IFGekN2dU0gHNWP21ZidHRiUEYcDNW2fibDDF82dm1bw-M-Zm6rK34u5UWP6Ftsy1OP1fHCB6-BSVOseeBfo2aD_jlwdipxOZF_CENt-LRNJHFkaK7qgjaUkw7vNWSsZC8NFMK37wxNVJ7Lq7r2r3chmH4QiyUOL6XmP04R3FgB_tXSCElQlajBk4sAElrSW7dMEiAWCpI64L6AGLoAHwd_LBagHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHmuGxAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIILwiAYRABGJ8DMgiKgoCAgICACDoNgECAwICAgICogAKoA0i9_cE6WNOBicyw95MDsQkr5W2FtEde5IAKAZgLAcgLAYAMAaIMA5ABAaoNAklOyA0B6g0TCKbPisyw95MDFQH0TAIdds40P_ANAogOCbAO3Or9mRjYEwzQFQGYFgHKFgIKAPgWAYAXAbIXEBgBKgo0OTcwMjEyMjIxUAa6FwI4AaoYFwkAAAAAfA9BQRIKNDk3MDIxMjIyMRgBshgJEgL2ThguIgEA0BgB6BgBwhkCCAE&ae=1&gclid=EAIaIQobChMI9MaKzLD3kwMVAfRMAh12zjQ_EAEYASAAEgLEYPD_BwE&num=1&cid=CAQS5AEABaugfcF3l6tvBkwEn_rQa0NoIXImV3FhHmcgez2c60uNBdNlCDZEgMWy9hHqx9s_RO8jY3Va0Jd5BxJ8_UhsdI872kc6FmgHpqGXyNRDjcaEsIOgEsbLjSeRRt9GEjLLqOEXw60Zf8DfQ_NElv7OpP5li3QhmxdVegRHkWXLl_MOTMUwqrQq23rwncuYe5_TFLfGqE9VoNBO4t-XGuEf7t5RHnaQ-2H6JDG-VFUTyocOSMPzor0M-yG-kpcnenVUNS85fi5RWoepMa63Ir-3yFWSAw5FLEMS4J3rsxk3SoLqR1cYAQ&sig=AOD64_15HssiDCc-H4SWUzhu-FfAxrcqLg&client=ca-pub-1056034821646296&rf=1&nb=8&adurl=https://health.policybazaar.com/%3Fnew%3D1%26pb_source%3Dgoogle%26pb_medium%3Dcpc%26pb_campaign%3DHealth_Performance_Max_Search_Themes%26gad_source%3D5%26gad_campaignid%3D12734140930%26gclid%3DEAIaIQobChMI9MaKzLD3kwMVAfRMAh12zjQ_EAEYASAAEgLEYPD_BwE
+                - link "Policybazaar.com" [ref=f3e24] [cursor=pointer]:
+                  - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CnF4TJXbjabSgEoHos8IP9pzT-QPq49zKhgHbifb61xWDzPqTlw4QASCVlJmjAWDl6uMDoAGnoLT6A8gBCakCqcdDuB8cRz6oAwHIA8sEqgSRAk_QOs8G9PZCxv7WdYRPJmQ1FkvlpH3llFrdSIE2SzIBdo6Eyp9gZErD_A2kgkFBe-nkLXt8XM5d6OYVfa_yrK5uZmjwSjO-MJdoG41Pdwg7gg5yK-nE8W6tK2ngJSaG9zR5J3fIzsc7R805gTjguMsROnpDBOyDX-GPQjis32oQDV_RJdz0IFGekN2dU0gHNWP21ZidHRiUEYcDNW2fibDDF82dm1bw-M-Zm6rK34u5UWP6Ftsy1OP1fHCB6-BSVOseeBfo2aD_jlwdipxOZF_CENt-LRNJHFkaK7qgjaUkw7vNWSsZC8NFMK37wxNVJ7Lq7r2r3chmH4QiyUOL6XmP04R3FgB_tXSCElQlajBk4sAElrSW7dMEiAWCpI64L6AGLoAHwd_LBagHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHmuGxAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIILwiAYRABGJ8DMgiKgoCAgICACDoNgECAwICAgICogAKoA0i9_cE6WNOBicyw95MDsQkr5W2FtEde5IAKAZgLAcgLAYAMAaIMA5ABAaoNAklOyA0B6g0TCKbPisyw95MDFQH0TAIdds40P_ANAogOCbAO3Or9mRjYEwzQFQGYFgHKFgIKAPgWAYAXAbIXEBgBKgo0OTcwMjEyMjIxUAa6FwI4AaoYFwkAAAAAfA9BQRIKNDk3MDIxMjIyMRgBshgJEgL2ThguIgEA0BgB6BgBwhkCCAE&ae=1&gclid=EAIaIQobChMI9MaKzLD3kwMVAfRMAh12zjQ_EAEYASAAEgLEYPD_BwE&num=1&cid=CAQS5AEABaugfcF3l6tvBkwEn_rQa0NoIXImV3FhHmcgez2c60uNBdNlCDZEgMWy9hHqx9s_RO8jY3Va0Jd5BxJ8_UhsdI872kc6FmgHpqGXyNRDjcaEsIOgEsbLjSeRRt9GEjLLqOEXw60Zf8DfQ_NElv7OpP5li3QhmxdVegRHkWXLl_MOTMUwqrQq23rwncuYe5_TFLfGqE9VoNBO4t-XGuEf7t5RHnaQ-2H6JDG-VFUTyocOSMPzor0M-yG-kpcnenVUNS85fi5RWoepMa63Ir-3yFWSAw5FLEMS4J3rsxk3SoLqR1cYAQ&sig=AOD64_15HssiDCc-H4SWUzhu-FfAxrcqLg&client=ca-pub-1056034821646296&rf=1&nb=1&adurl=https://health.policybazaar.com/%3Fnew%3D1%26pb_source%3Dgoogle%26pb_medium%3Dcpc%26pb_campaign%3DHealth_Performance_Max_Search_Themes%26gad_source%3D5%26gad_campaignid%3D12734140930%26gclid%3DEAIaIQobChMI9MaKzLD3kwMVAfRMAh12zjQ_EAEYASAAEgLEYPD_BwE
+                - link "Get Quote" [ref=f3e26] [cursor=pointer]:
+                  - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CnF4TJXbjabSgEoHos8IP9pzT-QPq49zKhgHbifb61xWDzPqTlw4QASCVlJmjAWDl6uMDoAGnoLT6A8gBCakCqcdDuB8cRz6oAwHIA8sEqgSRAk_QOs8G9PZCxv7WdYRPJmQ1FkvlpH3llFrdSIE2SzIBdo6Eyp9gZErD_A2kgkFBe-nkLXt8XM5d6OYVfa_yrK5uZmjwSjO-MJdoG41Pdwg7gg5yK-nE8W6tK2ngJSaG9zR5J3fIzsc7R805gTjguMsROnpDBOyDX-GPQjis32oQDV_RJdz0IFGekN2dU0gHNWP21ZidHRiUEYcDNW2fibDDF82dm1bw-M-Zm6rK34u5UWP6Ftsy1OP1fHCB6-BSVOseeBfo2aD_jlwdipxOZF_CENt-LRNJHFkaK7qgjaUkw7vNWSsZC8NFMK37wxNVJ7Lq7r2r3chmH4QiyUOL6XmP04R3FgB_tXSCElQlajBk4sAElrSW7dMEiAWCpI64L6AGLoAHwd_LBagHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHmuGxAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIILwiAYRABGJ8DMgiKgoCAgICACDoNgECAwICAgICogAKoA0i9_cE6WNOBicyw95MDsQkr5W2FtEde5IAKAZgLAcgLAYAMAaIMA5ABAaoNAklOyA0B6g0TCKbPisyw95MDFQH0TAIdds40P_ANAogOCbAO3Or9mRjYEwzQFQGYFgHKFgIKAPgWAYAXAbIXEBgBKgo0OTcwMjEyMjIxUAa6FwI4AaoYFwkAAAAAfA9BQRIKNDk3MDIxMjIyMRgBshgJEgL2ThguIgEA0BgB6BgBwhkCCAE&ae=1&gclid=EAIaIQobChMI9MaKzLD3kwMVAfRMAh12zjQ_EAEYASAAEgLEYPD_BwE&num=1&cid=CAQS5AEABaugfcF3l6tvBkwEn_rQa0NoIXImV3FhHmcgez2c60uNBdNlCDZEgMWy9hHqx9s_RO8jY3Va0Jd5BxJ8_UhsdI872kc6FmgHpqGXyNRDjcaEsIOgEsbLjSeRRt9GEjLLqOEXw60Zf8DfQ_NElv7OpP5li3QhmxdVegRHkWXLl_MOTMUwqrQq23rwncuYe5_TFLfGqE9VoNBO4t-XGuEf7t5RHnaQ-2H6JDG-VFUTyocOSMPzor0M-yG-kpcnenVUNS85fi5RWoepMa63Ir-3yFWSAw5FLEMS4J3rsxk3SoLqR1cYAQ&sig=AOD64_15HssiDCc-H4SWUzhu-FfAxrcqLg&client=ca-pub-1056034821646296&rf=1&nb=8&adurl=https://health.policybazaar.com/%3Fnew%3D1%26pb_source%3Dgoogle%26pb_medium%3Dcpc%26pb_campaign%3DHealth_Performance_Max_Search_Themes%26gad_source%3D5%26gad_campaignid%3D12734140930%26gclid%3DEAIaIQobChMI9MaKzLD3kwMVAfRMAh12zjQ_EAEYASAAEgLEYPD_BwE
+                - link [ref=f3e27] [cursor=pointer]:
+                  - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CnF4TJXbjabSgEoHos8IP9pzT-QPq49zKhgHbifb61xWDzPqTlw4QASCVlJmjAWDl6uMDoAGnoLT6A8gBCakCqcdDuB8cRz6oAwHIA8sEqgSRAk_QOs8G9PZCxv7WdYRPJmQ1FkvlpH3llFrdSIE2SzIBdo6Eyp9gZErD_A2kgkFBe-nkLXt8XM5d6OYVfa_yrK5uZmjwSjO-MJdoG41Pdwg7gg5yK-nE8W6tK2ngJSaG9zR5J3fIzsc7R805gTjguMsROnpDBOyDX-GPQjis32oQDV_RJdz0IFGekN2dU0gHNWP21ZidHRiUEYcDNW2fibDDF82dm1bw-M-Zm6rK34u5UWP6Ftsy1OP1fHCB6-BSVOseeBfo2aD_jlwdipxOZF_CENt-LRNJHFkaK7qgjaUkw7vNWSsZC8NFMK37wxNVJ7Lq7r2r3chmH4QiyUOL6XmP04R3FgB_tXSCElQlajBk4sAElrSW7dMEiAWCpI64L6AGLoAHwd_LBagHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHmuGxAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIILwiAYRABGJ8DMgiKgoCAgICACDoNgECAwICAgICogAKoA0i9_cE6WNOBicyw95MDsQkr5W2FtEde5IAKAZgLAcgLAYAMAaIMA5ABAaoNAklOyA0B6g0TCKbPisyw95MDFQH0TAIdds40P_ANAogOCbAO3Or9mRjYEwzQFQGYFgHKFgIKAPgWAYAXAbIXEBgBKgo0OTcwMjEyMjIxUAa6FwI4AaoYFwkAAAAAfA9BQRIKNDk3MDIxMjIyMRgBshgJEgL2ThguIgEA0BgB6BgBwhkCCAE&ae=1&gclid=EAIaIQobChMI9MaKzLD3kwMVAfRMAh12zjQ_EAEYASAAEgLEYPD_BwE&num=1&cid=CAQS5AEABaugfcF3l6tvBkwEn_rQa0NoIXImV3FhHmcgez2c60uNBdNlCDZEgMWy9hHqx9s_RO8jY3Va0Jd5BxJ8_UhsdI872kc6FmgHpqGXyNRDjcaEsIOgEsbLjSeRRt9GEjLLqOEXw60Zf8DfQ_NElv7OpP5li3QhmxdVegRHkWXLl_MOTMUwqrQq23rwncuYe5_TFLfGqE9VoNBO4t-XGuEf7t5RHnaQ-2H6JDG-VFUTyocOSMPzor0M-yG-kpcnenVUNS85fi5RWoepMa63Ir-3yFWSAw5FLEMS4J3rsxk3SoLqR1cYAQ&sig=AOD64_15HssiDCc-H4SWUzhu-FfAxrcqLg&client=ca-pub-1056034821646296&rf=1&nb=8&adurl=https://health.policybazaar.com/%3Fnew%3D1%26pb_source%3Dgoogle%26pb_medium%3Dcpc%26pb_campaign%3DHealth_Performance_Max_Search_Themes%26gad_source%3D5%26gad_campaignid%3D12734140930%26gclid%3DEAIaIQobChMI9MaKzLD3kwMVAfRMAh12zjQ_EAEYASAAEgLEYPD_BwE
+                  - generic [ref=f3e29]:
+                    - img [ref=f3e30]
+                    - img [ref=f3e32]
+          - img [ref=f3e40] [cursor=pointer]
+          - button [ref=f3e42] [cursor=pointer]:
+            - img [ref=f3e43]
+          - iframe
+    - paragraph [ref=e37]:
+      - text: Do you enjoy this platform? ❤️
+      - link "Buy us a coffee" [ref=e38] [cursor=pointer]:
+        - /url: https://www.buymeacoffee.com/expandtesting
+    - generic [ref=e39]:
+      - insertion [ref=e41]:
+        - generic [ref=e44]:
+          - heading "These are topics related to the article that might interest you" [level=2] [ref=e46]: Discover more
+          - link "Programming" [ref=e47] [cursor=pointer]:
+            - generic "Programming" [ref=e48]
+            - img [ref=e50]
+          - link "Computer Science" [ref=e52] [cursor=pointer]:
+            - generic "Computer Science" [ref=e53]
+            - img [ref=e55]
+          - link "Development Tools" [ref=e57] [cursor=pointer]:
+            - generic "Development Tools" [ref=e58]
+            - img [ref=e60]
+          - link "Software" [ref=e62] [cursor=pointer]:
+            - generic "Software" [ref=e63]
+            - img [ref=e65]
+          - link "Internet Software" [ref=e67] [cursor=pointer]:
+            - generic "Internet Software" [ref=e68]
+            - img [ref=e70]
+          - link "Web Apps & Online Tools" [ref=e72] [cursor=pointer]:
+            - generic "Web Apps & Online Tools" [ref=e73]
+            - img [ref=e75]
+          - link "Networking" [ref=e77] [cursor=pointer]:
+            - generic "Networking" [ref=e78]
+            - img [ref=e80]
+          - link "Computers & Electronics" [ref=e82] [cursor=pointer]:
+            - generic "Computers & Electronics" [ref=e83]
+            - img [ref=e85]
+      - generic [ref=e89]:
+        - navigation "breadcrumb mb-2" [ref=e90]:
+          - list [ref=e91]:
+            - listitem [ref=e92]:
+              - link "Home" [ref=e93] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e94]: / Infinite Scroll
+        - heading "Infinite Scroll page for Automation Testing Practice" [level=1] [ref=e95]
+        - generic [ref=e99]:
+          - text: "Timestamp : 1776514597040"
+          - text: Fuga natus deserunt ex aspernatur dolor eaque sapiente deserunt at tempora similique eveniet a nam cupiditate nesciunt assumenda eveniet fugiat similique ab occaecati asperiores eligendi nostrum voluptatibus natus neque omnis culpa est aperiam praesentium nostrum deleniti quia nostrum quae temporibus voluptas debitis voluptas et aperiam beatae sit nesciunt occaecati tempore earum illum mollitia unde velit modi aut ea eaque commodi dolor temporibus delectus quis autem quos inventore cupiditate numquam pariatur in similique nesciunt similique ratione tenetur magnam debitis autem sint cupiditate unde labore nisi doloribus soluta eos ex deleniti temporibus vitae alias molestiae provident qui consectetur autem molestiae laboriosam consectetur unde voluptatem dicta distinctio qui hic voluptatem porro unde aut vel deleniti et quas vel quo et suscipit optio dignissimos illo qui ipsa et quasi sit nostrum illum saepe omnis voluptas saepe enim libero eveniet porro earum repellendus voluptas ea cumque debitis minima soluta et quia sit dolores earum mollitia est velit vel labore repudiandae voluptas est inventore ipsam ratione quia voluptas facilis consequatur facere ut et quaerat alias molestiae repudiandae dignissimos iste qui eligendi ut voluptatem provident voluptatum rem iusto quia aut alias aut perferendis rerum quae earum dolor sint esse voluptas perferendis sit necessitatibus recusandae exercitationem cum tempora alias qui labore non sed voluptatem et neque dignissimos cupiditate voluptates et excepturi dolor nulla molestiae accusamus similique odio qui laboriosam qui maiores neque officia assumenda eligendi omnis sequi ut ab omnis sit enim fugit magnam quo quos voluptatem et a aliquid id veritatis unde enim et eum et esse quia dolores minima dicta quae accusantium modi quia laborum aut accusamus facilis quis ut quasi tempore quam est reiciendis blanditiis nulla deleniti recusandae consectetur est nihil nobis dolore modi porro repellat id totam officia sed eligendi laudantium aspernatur consequatur asperiores qui ad nihil rerum veniam provident doloremque dicta est amet. "
+      - insertion [ref=e101]:
+        - iframe [ref=e103]:
+          - iframe [ref=f5e1]:
+            - generic [ref=f7e1]:
+              - generic [ref=f7e2]:
+                - generic:
+                  - img [ref=f7e6] [cursor=pointer]
+                  - button [ref=f7e8] [cursor=pointer]:
+                    - img [ref=f7e9]
+              - insertion [ref=f7e16]:
+                - iframe [ref=f7e17]:
+                  - link "Advertisement" [ref=f15e4] [cursor=pointer]:
+                    - /url: https://adclick.g.doubleclick.net/pcs/click?xai=AKAOjstdlTfZdVdM9gmWttRVS8DDt_cXtqDqNle17wAWA2kN_lcWErTNXEHrS5WHvLjBGKkh2NbHrwfS_XxOQS_1eioLWMfkv5bvvrDbOhOoRBwUyq9PmLyx9SR2ZQm43jBh1yBvy4Kk-L-J8rQ9B_t7lBmUPWWql5eNKSY9-4OeaBazuLAo7H7W2oujrVXfPKYYm01C1_7t03sTZcZerMi8s3yv7WCznQdz38S-m37Z1EufeTnisRe6Gl4RhdeLH_CqVimiZKKJ2GIMIOl9gOZ0tanH5ZrKKigjeQdVKb9Tx49gB1tuJ0mFjgpEvKBr3MXpR3K7BjXeT2C33gKzOCc99oBVybOXOKqRb5Kwwt2jPqTqwF9Yh-Ac7rGWY4QWXnmLECX921LCb1wTstSRFYmkMltCIKdYQe9Nh4UDxqoLyVGSMzO1IgsyJnlYLlVzrYxm1v3ox_A9Dyb6psNc-qqovBMQDv_troEf3oCEzQYg9mAQpdfP0Fl9jJurZSgYXYWqKb6wUBJV9wGMfsVlqeEnLrrZ_KDHS2J1J7tf&sai=AMfl-YSeMMwAHToTnBg1kKVn59efwPUyJ7EKT5jw25wynYpYrUPe3HzofOcx3fuwjDwOp2H2aGxcABT3vMUSShWWruCd6RNkSnK1CtqfkHeKa9KYWOvgjpWOOKe4f8n30NbBEEzwVuGWA4PE-HtJh4VF7vcqreMv8R1lMPPcPwQO0JEu_Hu5_dO6TJS74v6ErYmlbF-Q90J68zGDeKbd2KGY4Bv5M5Sl6XrYgArVMxkmqKhfmCOvKcfir_QHB-ArUUJiVQRVnhFEJ19NvP7tHMZ-SJfGkQbD_10vaMgFIDM0zQZQCKBK&sig=Cg0ArKJSzLCDS3Dhz8nq&cry=1&fbs_aeid=%5Bgw_fbsaeid%5D&urlfix=1&adurl=https://googleads.g.doubleclick.net/dbm/clk%3Fsa%3DL%26ai%3DC7wvYJXbjafeNE4Dgs8IPueawiQLn59-uhgHh3cbm6hXwLhABIJWUmaMBYOXq4wOgAe7l3uIByAEJqQKpx0O4HxxHPqgDAcgDmwSqBKwCT9BQQQ0CUSG79xw_pidlhlXuC9eL9fmf_I5TkRgty8rFcN_-R8BzmT7Iam50nZeiwvXBw6YrZP-apimlUtTkTWNLYupf82Erj5OnRLAgc7HOhI-XWdXA__JnRT7KtcuRL2mHbmuGPa0IXhutOPIhlAbvJE5lzRmEwJkhj1FrfuCBuav-7dy0uaZQpzG4YIFNE9TYpPEbCIKvcDqZ4hxLBnBtyXqC9Tky7PtX71wKQZwj3AhqnVXO0QoEKOK9su61PuEq4VLsSeHA6tb_GcIgcg5DoFtTMqwpmlUz-MdslO4p4nahiC6CmJgo4VRsXsJf2T_3OpqOJ-fOX3NgontHnGL4f-HRLxbUQ1Cx1h1mCv7SOQYbaA8fknjlIE6-aOSTAkXHaoxx7oR8aPErwASvmYeCoQXgBAOIBcaTz6xTkAYBoAZNgAf6maGdAqgHp8yxAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHmuGxAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAqgH59exAtgHANIILwiAYRABGJ8DMgiKgoCAgICACDoNgECAwICAgICogAKoA0i9_cE6WL3-icyw95MDgAoBmAsByAsBgAwBqg0CSU7qDRMIprmLzLD3kwMVAPBMAh05Mywh8A0BiA4JsBP_o-Uh2BMN2BQB0BUByhYCCgD4FgGAFwGyFxAYAioKMjQwNjMzNTc0M1AGqhgXCQAAAABAqexAEgoyNDA2MzM1NzQzGAGyGAkSAvpTGE0iAQDQGQE%26ae%3D1%26num%3D1%26cid%3DCAQS5AEABaugfaW7ZGO1aZcaSotzP7K88WFMbN3434bRV6FN18YqeTNOm7Qk66HXi_yQ1OqUqEPRBg3a6ZkVKT8qEzeyK5SQZWgd0yOUdyCmV4iYUy2bGICXR6s_9CA6V1PqxuJc1jBSbJSeQGiodn9Sn5XUTx9yrC_RwiGCRgVidE6-9UA6UDNxOByT5gKaa3in_M8nRIYiVaY32hFpmtlhIYJL0OrmueJs1vyhEhREg49mk78420-7rVVVcL9tAS3kHcdZydxdD9A9RjYOp2pehXUIzELJn3OkY4hYCRsxk5JxsUqpLCoYAQ%26sig%3DAOD64_3TIIMBsWrg4u72WEdTy178OnNAzQ%26client%3Dca-pub-1056034821646296%26dbm_c%3DAKAmf-D3S094zolwH57gaxKp-IXOSJ9J9JSFbiTATWD9o-yw44UpzBLveNw8ydAcVv2aSSTFIWaRt2xo8K1E1wsgLJn9sJOIMDXEFgzGLcmyRKwZiBvIdsotpA4aMxIElFl4p9iQNxSyV_VWnse-5a1lqFJkiNKFUJ0w8Ee0k46bfL784C5qgnul1p4cqNwj3B_x-FlKlLUq4cN4fF2icOZcuROeBlHjBONp2_dUWAwE-dU60WN5eDDRW4jd_6NQ5P_2W_75jeRVVvd82VJk6mvgGcW_qTnt0-KOHADbEQyn2jkhMB0xeSE%26cry%3D1%26dbm_d%3DAKAmf-AmDyVLW5aqRMEKlEwFHzZe57WKsB_ufU8eWLTKvg5CZUNHhXozDHEKGjra0t5BDFQmu-3uSc4Wfyt28wuFbDn485dCXk9ZqsyCtpuo8_E6IdQX3EJaYA_vwJag3qhOEWSiQYeqsP24eibE9zHwOo7FTF0TsqrMPADDZsf4a31PkqZXWqpfnTqfs3z86PUts236j3Fgu-yPiJGnQQk1Noi--sGx8i1OltjA6AHGMRF5r1FoCWnx3zdtpvPSgtVV8jFqkkLqhMnB95jIwLORu77xtiabanbo4Pi9NADjgCP9HxTCdgBSdpAiX2m4BmofgGl3YhQsXqHvf6sjyFckEwCNPGSYhGiJX0-cRte0hIY_h0UdaLVcIUA6RsIX6BCLzwgiL6Rf_JnC_1ClvsP8RlexV-co8DwAdHhhV60OHAROkfH1_aP92bu8qbdSIwTs3ouwFYcivfCHuQLOicjlXDilo1hfepbdadij0-xv4joFUWp8mYHq1ZSQfOcYL8reOQwSFXsdD6O_IO70JWk7IGg7CGSRhMdG0mIuNd_PqVjduU3z_8jTXMnwg9YS5XQdNiFwPd57vlGNzJgVwkXdZYfLfPgr18ELz1z6LGyiWQztNEYURQgr7UHNEqY7RKZraHsVADOFpaB50JD-0otm0kva7is4sMK1qqiUKJDLIp7Z1-jTIewGgcngCxsPuxaRatZNrcyaAolT_l0rUy-U1vl60_1-_hoPGcT5kdqQCozVHu_pC_o%26adurl%3Dhttps://careers.unitedhealthgroup.com/search-jobs/ai/India/34088/1/2/1269750/22/79/50/2%253Fsrc%253DUNS-19965%2526utm_source%253Dyoptima.com%2526utm_medium%253Ddisplay%2526utm_campaign%253DIndia%2526utm_content%253Dniche_site%2526utm_term%253D437468316%2526ss%253Dpaid%2526dclid%253D%2525edclid!%2526gad_source%253D7%2526gad_campaignid%253D23406083668
+                    - img "Advertisement" [ref=f15e5]
+  - contentinfo [ref=e104]:
+    - generic [ref=e109]:
+      - heading "Practice Test Automation WebSite for Web UI and Rest API" [level=4] [ref=e110]
+      - paragraph [ref=e111]:
+        - text: "Version: e64cd80e | Copyright"
+        - link "Expand Testing" [ref=e112] [cursor=pointer]:
+          - /url: https://expandtesting.com/
+        - text: "2026"
+  - img [ref=e114] [cursor=pointer]
+  - insertion [ref=e116]:
+    - iframe [ref=e119]:
+      - iframe [ref=f12e1]:
+        - generic [active]:
+          - generic [ref=f13e1]:
+            - generic [ref=f13e2]:
+              - generic:
+                - img [ref=f13e6] [cursor=pointer]
+                - button [ref=f13e8] [cursor=pointer]:
+                  - img [ref=f13e9]
+            - insertion [ref=f13e16]:
+              - generic [ref=f13e17]:
+                - link "Click Here" [ref=f13e18] [cursor=pointer]:
+                  - /url: https://googleads.g.doubleclick.net/dbm/clk?sa=L&ai=C12EgJXbjaYmTEvess8IPhM_MmQ-to6nLhgH735Gi2xSHsL3ko0YQASCVlJmjAWDl6uMDoAGL4oqgAcgBCagDAcgDmwSqBKYCT9B3EDhBqQuPEhQz5JPudzbK2bjl6xwsDELSmw8uj7jZ1oNGU89n8OYbI6nMwP2VnW09QWAClLvrpmukUErsEixzn0fI9xFJUIUGwWZGtXKSLtnUBLw4dVvNiHujnqyFl4o6eaRgwxLRJJeZRT7_BN-cRRvNHWcOCbB95zz4m3Uetkev6etTL0GGToRoH6JwFD2eqComja2_GnPNXm5hUVUrE2ceRGsoh7pNjt6fgsrgctYa1VZvZVF-WEBm-OaA_oP-sLFyRKqxbCn3jifhxq7-L2j-SOSyXNPhsO3z7ALlIC_bUdR6_dTdFARUjpXjh4CPr4ocEldk3Q5FIVUGSKzJwtDtsgEH5b00I5_UvDmlC1Mkxb7Xs3w2_1IiWBmKpkOWpo_-wASc1r-0mAXgBAOIBdzVn9pTkAYBoAZNgAfdnfXfAqgHp8yxAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHmuGxAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAqgH59exAtgHANIIMQiAYRABGJ8DMgiKgoCAgICACDoPgECAwICAgICogAKog4AQSL39wTpYvv6IzLD3kwOACgGYCwHICwGADAGqDQJJTuoNEwjkwIrMsPeTAxV31kwCHYQnM_PwDQGIDgmwE5uU8CHQEwDYEw3YFAHQFQHKFgIKAPgWAYAXAbIXBBgCUAayGAUYTSIBANAZAdgZAQ&ae=1&num=1&cid=CAQS5QEABaugfUJa7QNZ0yO91t5IHPNnHchvYa7DyPvms7yGsQRnZo3VcwvhOVBM1moCAkc6X_OsYdxrqBa1Ix5L5EFZfnUM3fl7EAD34zMswSIjcFIupUjGHYgooHMFBA2wE4pHcpguwmDmyGwITKg4m4dEsdaGtpB4hrARu2E7xJEC-3C0qCVz09LATqHM228VBoh_I-LEmNIVpS_E30ePI_A_5-8UPje_wL9VzCcqE4C9rPew0LG3Ku8wPjtC5OR4GpibQn444HL01rMq-7pWnGCUHsLowk0D7airYh_e3nZHgqO33BnZGAE&sig=AOD64_3I8XDbWzEf2FFYyhAm-7U_GlU3QQ&client=ca-pub-1056034821646296&dbm_c=AKAmf-A5gOgc7ieaE_llO7APYlMXT2Po8WpDBD8q0PkJyaP_GCkJnjX7ii9V2UjlCowpyFc4QXL7LTQRMKIT6U6u7iBLag8vyp5Yp6lUPSuV_os5_3ttYCxzaFLCz8NbpKy-nyBfyLAAtw7LUyZ3pN6JWjCgrts7b_IhJB4Vo0cgLajoMvSR1Lc5Q_VJXmZP4ODvKhnCOi4s5oL1a7iLVXUa-bocv2gzuLevqRBCeQk_LSKZq6_G-0wSBrZnNrhjSozoEFcKoIKbhR8EXJd_HvLIisiwZwZORA&cry=1&dbm_d=AKAmf-BT-WxQiw4j4rNemgTy8L5cCOWG8RUV5aAstmO6yFNyC8yczK6C90SueqKg4R4VV4Q0Kj_2GHUP16yY3DO-IC-rlWFmEoVQI8vu-6h23xYT_xrfWkoEoONtUl6eVktJPR5nEgluYd395qH7IQmtZ2f9AqQZNU93KeoSKUpg4LbUHOCCy3jMEP6Uya3OFoNj2f1DEyzKYcaNCZ4xlnCMakhzmKDtF1VQNY9EqVAD3Nc2vbeUWlB-tqWfhOwmV23Uaf3FKgHGvGngdDbaYB_yNajXlkqjIDJd_HNSOYw17uEP8pmajVEGR3VtzSlH10zL-Ly8b3uEMnQpCr7xT-myuaZ0MWZMCNWd8BnxR-8QMUWQjgB_J-Z9nkN07aGOpOxrEHAStIhuj_P9uSwtwuLx7hrJ_oskhww75ugZVVklMwyaeDvDAA5j-b87vt36XKPJTSi9r-ZY9l2kjmG4zmzW6A_GfMQEHSn1g3yK41VZgUh3r8yU8fICVeoQT0zI5g4Qgff5QnIux4kUG-SZRRZOUTSeygohN5Lt0ujsn6dfis1rrvGHKOBdXW4r12WL6JQMox8ZqolrLg69RZt92FTI9wLuVl0uH8RZjVd1BIKGVDzymmuQPBpbU-jxtTPfquIURwmy5gT24G8PZ7E-p3L9ShlMG9VDSy1b5OG1Br4Yd-eRPMheofAj3P0ZqPKsR7xQpBDmL5ys5wRCVRDGUEeIKaQbuUZ6eg&adurl=https://servedby.flashtalking.com/click/7/281072;9880713;5573223;210;0/?us_privacy=!!US_PRIVACY!&ft_partnerimpid=ABAjH0iR-ePm--r4OobI68SB6raI&ft_impID=1C1C7594-D87A-15FE-BDAB-E116D452205D&ft_section=22469405404&g=6682CB78F98412&random=980042.3710224505&ft_width=728&ft_height=90&url=https://www.adobe.com/in/creativecloud.html?sdid=C12Y2M73&mv=display&mv2=display
+                  - img "Click Here" [ref=f13e19]
+                - link "AdChoices arrow" [ref=f13e21] [cursor=pointer]:
+                  - /url: https://www.flashtalking.com/consumer-privacy
+                  - img "AdChoices arrow" [ref=f13e22]
+                - link "Privacy Notification" [ref=f13e24] [cursor=pointer]:
+                  - /url: https://www.flashtalking.com/consumer-privacy
+                  - img [ref=f13e25]
+                - link "Privacy Notification" [ref=f13e27] [cursor=pointer]:
+                  - /url: https://www.flashtalking.com/consumer-privacy
+                  - img [ref=f13e28]
+          - iframe
+  - generic [ref=e120]:
+    - generic [ref=e121] [cursor=pointer]:
+      - img [ref=e123]
+      - link "Go to shopping options for Programming" [ref=e125]: Programming
+    - button "Close shopping anchor" [ref=e126]
+```
