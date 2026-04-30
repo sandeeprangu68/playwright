@@ -1,14 +1,7 @@
-const { test} = require('../fixtures/testFixture');
-const { expect } = require('@playwright/test');
-test('Dashboard Test @smoke', async ({ loggedInPage }) => {
+import { test, expect } from '@playwright/test';
 
-    await loggedInPage.goto('https://tutorialsninja.com/demo/index.php?route=account/account');
-    console.log(await loggedInPage.title());
+test('Verify page title', async ({ page }) => {
+  await page.goto('https://sandeepprangu68.github.io/playwright/');
 
-    await loggedInPage.waitForTimeout(5000);
-    console.log(await loggedInPage.title());
-    await expect(loggedInPage).toHaveTitle("My Account");
-    await loggedInPage.waitForTimeout(5000);
-
-
+  await expect(page).toHaveTitle('Test App');
 });
