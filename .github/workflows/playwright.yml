@@ -1,93 +1,77 @@
-name: Playwright Tests + Allure + Website Deploy
+name: Deploy Website + Run Playwright + Allure (Chromium Only)
 
 on:
   push:
     branches: [ master ]
 
-  workflow_dispatch:
-    inputs:
-      spec:
-        description: "Test file or folder to run"
-        required: false
-        default: "tests/homepage.spec.js"
-
-      env:
-        description: "Environment (qa/dev)"
-        required: false
-        default: "qa"
-
-# 🔥 Required for gh-pages push
 permissions:
   contents: write
 
 jobs:
-  test-and-deploy:
+
+  # 🌐 STEP 1: Deploy Website FIRST
+  deploy-site:
     runs-on: ubuntu-latest
 
     steps:
-      # ✅ Checkout repo
       - name: Checkout code
         uses: actions/checkout@v4
 
-      # ✅ Setup Node
-      - name: Setup Node.js
+      - name: Deploy website to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./sample-site
+          publish_branch: gh-pages-site
+
+  # 🧪 STEP 2: Run tests AFTER deploy
+  test-and-report:
+    needs: deploy-site   # 🔥 important
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 18
 
-      # ✅ Install dependencies
       - name: Install dependencies
         run: npm ci
 
-      # ✅ Install Playwright browsers
-      - name: Install Playwright browsers
-        run: npx playwright install --with-deps
+      - name: Install Chromium only
+        run: npx playwright install chromium --with-deps
 
-      # 🔥 Clean old results
-      - name: Clean old Allure results
+      # ⏳ WAIT until site is live
+      - name: Wait for site to be live
+        run: |
+          echo "Waiting for site..."
+          for i in {1..10}; do
+            curl -s https://sandeeprangu68.github.io/playwright-site/ && break
+            sleep 5
+          done
+
+      - name: Clean old results
         run: rm -rf allure-results allure-report
 
-      # 🔥 Run tests (don't break pipeline)
-      - name: Run Playwright tests
-        run: npx playwright test ${{ github.event.inputs.spec || 'tests/homepage.spec.js' }}
+      # 🔥 Run tests on deployed URL
+      - name: Run Playwright tests (Chromium)
+        run: npx playwright test tests/homepage.spec.js --project=chromium
         env:
-          ENV: ${{ github.event.inputs.env || 'qa' }}
+          BASE_URL: https://sandeeprangu68.github.io/playwright-site/
         continue-on-error: true
 
-      # ✅ Install Allure CLI
       - name: Install Allure CLI
         run: npm install -g allure-commandline
 
-      # 🔥 Pull previous report (for history)
-      - name: Checkout gh-pages branch
-        uses: actions/checkout@v4
-        with:
-          ref: gh-pages
-          path: gh-pages
-        continue-on-error: true
-
-      # 🔥 Copy history (trend graph)
-      - name: Copy Allure history
-        run: |
-          if [ -d "gh-pages/history" ]; then
-            mkdir -p allure-results/history
-            cp -r gh-pages/history/* allure-results/history/
-          fi
-
-      # ✅ Add environment info
-      - name: Add environment info
-        run: |
-          mkdir -p allure-results
-          echo "ENV=${{ github.event.inputs.env || 'qa' }}" >> allure-results/environment.properties
-          echo "BROWSER=chromium" >> allure-results/environment.properties
-          echo "OS=ubuntu-latest" >> allure-results/environment.properties
-
-      # ✅ Generate Allure report
+      # 📊 Generate report
       - name: Generate Allure Report
         if: always()
         run: allure generate allure-results --clean -o allure-report
 
-      # 🚀 Deploy Allure report → gh-pages
+      # 🚀 Deploy Allure report
       - name: Deploy Allure report
         if: always()
         uses: peaceiris/actions-gh-pages@v3
@@ -95,12 +79,3 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./allure-report
           publish_branch: gh-pages
-          force_orphan: true
-
-      # 🌐 Deploy website → gh-pages-site (SEPARATE BRANCH)
-      - name: Deploy Website
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./sample-site
-          publish_branch: gh-pages-site
