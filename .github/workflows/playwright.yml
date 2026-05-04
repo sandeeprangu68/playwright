@@ -26,7 +26,7 @@ jobs:
 
   # 🧪 2️⃣ Run tests AFTER deployment
   test:
-    needs: deploy-site   # 🔥 VERY IMPORTANT
+    needs: deploy-site
     runs-on: ubuntu-latest
 
     steps:
@@ -51,7 +51,7 @@ jobs:
         run: rm -rf allure-results allure-report
 
       - name: Run Playwright tests
-        run: npx playwright test
+        run: npx playwright test tests/homepage.spec.js
         env:
           BASE_URL: https://sandeeprangu68.github.io/playwright/
 
@@ -61,7 +61,7 @@ jobs:
           name: allure-results
           path: allure-results
 
-  # 📊 3️⃣ Generate & publish Allure report
+  # 📊 3️⃣ Generate & publish Allure report + Email
   report:
     needs: test
     if: always()
@@ -87,3 +87,29 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./allure-report
           publish_branch: gh-pages
+
+      # 📧 Email Notification Step
+      - name: Send Allure Report Email
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          username: ${{ secrets.EMAIL_USERNAME }}
+          password: ${{ secrets.EMAIL_PASSWORD }}
+          subject: "Playwright Report - ${{ job.status }}"
+          to: your_email@gmail.com
+          from: your_email@gmail.com
+          html_body: |
+            <h2>Playwright Test Execution Completed</h2>
+
+            <p>Status: <b>${{ job.status }}</b></p>
+
+            <p>Allure Report:</p>
+            <a href="https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/">
+              View Report
+            </a>
+
+            <p>GitHub Run Details:</p>
+            <a href="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}">
+              View Run
+            </a>
