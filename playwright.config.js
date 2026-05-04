@@ -1,4 +1,4 @@
-const { defineConfig } = require('@playwright/test');
+const { defineConfig, devices } = require('@playwright/test');
 //require('./utils/env');
 
 module.exports = defineConfig({
@@ -10,11 +10,11 @@ module.exports = defineConfig({
   use: {
     //baseURL: process.env.BASE_URL,
     //storageState: 'storage/admin.json',
-    headless: true,
+    headless: false,
     browserName: 'chromium',
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',
-    trace: 'on-first-retry'
+    trace: 'on'
   },
   reporter: [
     ['list'],
@@ -23,7 +23,15 @@ module.exports = defineConfig({
   projects: [
     {
       name: 'chromium',
-      use: { browserName: 'chromium' }
+      use: {browserName: 'chromium'}
+    },
+    // 📱 Mobile Chrome (Pixel 5)
+    {
+      name: 'Mobile Chrome',
+      use: {
+        ...devices['Galaxy S24 landscape'],   // 👈 key line
+      },
+
     }
   ]
 });
