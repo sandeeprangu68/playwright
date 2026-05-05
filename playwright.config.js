@@ -26,13 +26,11 @@ module.exports = defineConfig({
       use: {browserName: 'chromium'}
     },
     // 📱 Mobile Chrome (Pixel 5)
-    {
-      name: 'Mobile Chrome',
-      use: {
-        ...devices['Galaxy S24 landscape'],   // 👈 key line
-      },
-
-    }
+    // {
+    //   name: 'Mobile Chrome',
+    //   use: {
+    //     ...devices['Galaxy S24 landscape'],   // 👈 key line
+    //   },
   ]
 });
 
