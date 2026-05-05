@@ -10,7 +10,7 @@ module.exports = defineConfig({
   use: {
     //baseURL: process.env.BASE_URL,
     //storageState: 'storage/admin.json',
-    headless: false,
+    headless: true,
     browserName: 'chromium',
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',
@@ -31,7 +31,6 @@ module.exports = defineConfig({
     //   use: {
     //     ...devices['Galaxy S24 landscape'],   // 👈 key line
     //   },
-
 
   ]
 });
